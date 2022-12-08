@@ -21,5 +21,4 @@ set a=!a:~69,10!
 echo !a!
 taskkill /F /PID !a!
 )
-
 ```
