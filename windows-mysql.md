@@ -1,1 +1,12 @@
-# Windows 安装 MySQL 
+# Windows 安装 MySQL 免安装版
+- mysql-8.0.13-winx64.zip免安装版
+- 安装步骤
+- 执行命令: `mysqld --initialize --console`
+- 记住root密码
+- 输入`mysqld -install` 将MySQL安装未Windows服务
+- 输入命令`net start mysql` 启动MySQL服务
+- 输入`mysql -u root -p` 登录数据,输入临时密码
+- 登陆成功后输入命令`alter user 'root'@'localhost' identified by` '新密码'
+- 所有root密码设置为:`avensen#2021`
+- 输入quit退出数据库，再次登陆数据库
+- 最后我们将Mysql的bin目录配置到环境变量中，方便我们下次启动，而不用切换路径

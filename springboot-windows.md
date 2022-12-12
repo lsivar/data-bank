@@ -22,3 +22,6 @@ echo !a!
 taskkill /F /PID !a!
 )
 ```
+
+# 4.Windows 开机启动
+    按下【win+R】打开运行输入：【shell:Common Startup】
